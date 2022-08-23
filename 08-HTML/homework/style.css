@@ -1,0 +1,46 @@
+h1 {
+    color: red;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    font-weight: bold;
+}
+
+#thirdDiv {
+    margin-top: 100px;
+    margin-left: 650px;
+    width: 500px;
+    height: 600px;
+    padding: 50px;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: rgba(240, 241, 158, 0.7);
+}
+
+img {
+    width: 400px;
+}
+
+.divClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+body {
+    background-image: linear-gradient(rgba(229, 231, 240, 0.7), rgba(4, 9, 30, 0.7)), url(https://media-cdn.tripadvisor.com/media/photo-s/1b/59/24/ba/pizza.jpg);
+    background-position: center;
+    background-size: cover;
+}
