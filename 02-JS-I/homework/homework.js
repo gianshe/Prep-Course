@@ -35,7 +35,7 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return e + x;
+  return x + y;
 }
 
 function resta(x, y) {
@@ -185,6 +185,7 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
   var combinado = nombre + ' ' + apellido;
+  return combinado;
 }
 
 function obtenerSaludo(nombre) {
